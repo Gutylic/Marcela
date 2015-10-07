@@ -23,3 +23,11 @@ C:\Users\Gustavo\Desktop\Marcela.asp\Marcela\Marcela\obj\Debug\Marcela.csprojRes
 C:\Users\Gustavo\Desktop\Marcela.asp\Marcela\Marcela\obj\Debug\Marcela.dll
 C:\Users\Gustavo\Desktop\Marcela.asp\Marcela\Marcela\obj\Debug\Marcela.pdb
 C:\Users\Gustavo\Desktop\Marcela.asp\Marcela\Marcela\bin\AjaxControlToolkit.dll
+C:\Users\Gustavo\Desktop\Marcela\Marcela\obj\Debug\Marcela.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Marcela\Marcela\obj\Debug\Marcela.dll
+C:\Users\Gustavo\Desktop\Marcela\Marcela\bin\Marcela.dll.config
+C:\Users\Gustavo\Desktop\Marcela\Marcela\bin\Marcela.dll
+C:\Users\Gustavo\Desktop\Marcela\Marcela\bin\Marcela.pdb
+C:\Users\Gustavo\Desktop\Marcela\Marcela\bin\Datos.dll
+C:\Users\Gustavo\Desktop\Marcela\Marcela\bin\Datos.pdb
+C:\Users\Gustavo\Desktop\Marcela\Marcela\obj\Debug\Marcela.pdb

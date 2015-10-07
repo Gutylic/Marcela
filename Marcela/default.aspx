@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Marcela.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Marcela.index" EnableEventValidation="false" %>
 
 <!DOCTYPE html>
 
@@ -260,7 +260,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
-					<h2>Contactame tengo una solucion para tu problema</h2>
+					<h2>Contactame tengo una solución para tu problema</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
@@ -281,11 +281,14 @@
             <div class="boxed-grey">
                 <form id="contact-form">
                 <div class="row">
+
+
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" required="required" />
+                            <asp:TextBox ID="name" runat="server" style="width:340px" class="form-control" placeholder="Ingrese su nombre"></asp:TextBox>
+                            
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -293,12 +296,14 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required="required" /></div>
+                                <asp:TextBox ID="email" runat="server" class="form-control" placeholder="Ingrese su email"></asp:TextBox>
+                                <%--<input type="email" class="form-control" id="email" placeholder="Ingrese su email" required="required" /></div>--%>
+                        </div>
                         </div>
                         <div class="form-group">
                             <label for="subject">
                                 Cual es su interes</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
+                            <select id="subject" style="width:340px" name="subject" class="form-control" required="required">
                                 <option value="na" selected="">Elija alguna opcion:</option>
                                 <option value="service">Cursos</option>
                                 <option value="suggestions">Psicoánalisis</option>
@@ -308,17 +313,20 @@
                             </select>
                         </div>
                     </div>
+
+
+
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Mensaje</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Mensaje"></textarea>
+                            <asp:TextBox ID="message" TextMode="MultiLine" placeholder="Mensaje" class="form-control" runat="server" Height="182px" Width="340px"></asp:TextBox>
+                            
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            ENVIE SU MENSAJE</button>
+                        <asp:Button ID="btnContactUs" class="btn btn-skin pull-right" runat="server" Text="ENVIE SU MENSAJE" OnClick="btnContactUs_Click" />
+                        
                     </div>
                 </div>
                 </form>

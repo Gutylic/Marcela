@@ -61,11 +61,13 @@
                         </div>
    		            </div>
                 
-                    <div class="well"> 
+                    <div class="well" style="height:235px"> 
                         <form class="form-horizontal" role="form">
                             <h4>Realice una consulta</h4>
                             <div class="form-group" style="padding:14px;">
-                                <textarea class="form-control" placeholder="Ingrese su mensaje"></textarea>
+                                <asp:TextBox ID="Mensaje" TextMode="MultiLine" runat="server" class="form-control" placeholder="Ingrese su mensaje"></asp:TextBox>
+                                <hr>
+                                <asp:Button ID="Button2" CssClass="btn btn-primary" runat="server" Width="100%" Text="Enviar" OnClick="Button2_Click" />
                             </div>             
                         </form>
                     </div>
