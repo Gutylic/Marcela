@@ -1,0 +1,5 @@
+C:\Users\Guty\Desktop\Marcela.asp\Marcela\Marcela\bin\Marcela.dll.config
+C:\Users\Guty\Desktop\Marcela.asp\Marcela\Marcela\bin\Marcela.dll
+C:\Users\Guty\Desktop\Marcela.asp\Marcela\Marcela\bin\Marcela.pdb
+C:\Users\Guty\Desktop\Marcela.asp\Marcela\Marcela\obj\Release\Marcela.dll
+C:\Users\Guty\Desktop\Marcela.asp\Marcela\Marcela\obj\Release\Marcela.pdb

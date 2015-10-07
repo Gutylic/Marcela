@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Marcela" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-U6J54HF;Initial Catalog=Marcela;Integrated Security=True" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="MarcelaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Usuarios" Member="Usuarios">
+    <Type Name="Usuarios">
+      <Column Name="ID_Paciente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Correo" Type="System.String" DbType="NChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="Celular" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="Pais" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="Skype" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Column Name="Contrasena" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Consulta" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

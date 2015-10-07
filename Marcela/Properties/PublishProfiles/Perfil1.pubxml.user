@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Guty\Desktop\web marce</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Marcela.dll">
+      <publishTime>04/27/2015 16:18:01</publishTime>
+    </File>
+    <File Include="color/default.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/23/2015 13:05:50</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>04/27/2015 16:17:20</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/24/2015 05:43:45</publishTime>
+    </File>
+    <File Include="font-awesome/css/font-awesome.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="font-awesome/css/font-awesome.min.css">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/FontAwesome.otf">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/bordered-pulled.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/core.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/fixed-width.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/font-awesome.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/icons.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/larger.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/list.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/mixins.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/path.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/rotated-flipped.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/spinning.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/stacked.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/less/variables.less">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/font-awesome.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_core.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_fixed-width.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_icons.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_larger.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_list.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_mixins.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_path.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_spinning.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_stacked.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="font-awesome/scss/_variables.scss">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/bg1.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/bg13.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/button-icons.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/grid-menu-icons.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/menu-icons.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/menu-icons2.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/search.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/search2.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/service-icon-1.png">
+      <publishTime>04/23/2015 21:07:10</publishTime>
+    </File>
+    <File Include="img/icons/service-icon-2.png">
+      <publishTime>04/23/2015 21:05:10</publishTime>
+    </File>
+    <File Include="img/icons/service-icon-3.png">
+      <publishTime>04/23/2015 21:06:03</publishTime>
+    </File>
+    <File Include="img/icons/service-icon-4.png">
+      <publishTime>04/23/2015 21:04:18</publishTime>
+    </File>
+    <File Include="img/icons/social-icons2.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/weather-icons.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/icons/weather-main.png">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/loader.gif">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/spinner.gif">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/team/1.jpg">
+      <publishTime>04/23/2015 13:05:32</publishTime>
+    </File>
+    <File Include="img/team/2.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/team/3.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/team/4.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/team/w.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/1.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/2.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/3.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/4.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/5.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/6.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/7.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="img/works/8.jpg">
+      <publishTime>04/23/2015 04:36:29</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>04/24/2015 15:56:33</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/jquery-1.10.2.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/jquery.easing.min.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/jquery.scrollTo.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="js/wow.min.js">
+      <publishTime>04/23/2015 04:36:28</publishTime>
+    </File>
+    <File Include="Logueo/css/style.css">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/images/bg.jpg">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/images/icons.png">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/images/into.png">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/images/Thumbs.db">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/index.html">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Logueo/js/jquery.min.js">
+      <publishTime>04/24/2015 15:30:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/27/2015 16:04:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

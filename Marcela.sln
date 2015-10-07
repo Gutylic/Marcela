@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcela", "Marcela\Marcela.csproj", "{7BF8CB21-7284-448E-A4E0-C08ADCA2EEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{F4A0C23F-226D-4889-A497-B4F5DAC29F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF8CB21-7284-448E-A4E0-C08ADCA2EEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF8CB21-7284-448E-A4E0-C08ADCA2EEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF8CB21-7284-448E-A4E0-C08ADCA2EEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF8CB21-7284-448E-A4E0-C08ADCA2EEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A0C23F-226D-4889-A497-B4F5DAC29F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A0C23F-226D-4889-A497-B4F5DAC29F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A0C23F-226D-4889-A497-B4F5DAC29F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A0C23F-226D-4889-A497-B4F5DAC29F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
