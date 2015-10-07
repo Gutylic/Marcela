@@ -34,13 +34,13 @@ namespace Marcela
 
             ViewState["Cantidad_De_Datos"] = val.Cantidad(); // cuenta la cantidad de datos
 
-            ViewState["Cantidad_De_Paginas"] = (int)ViewState["Cantidad_De_Datos"] / 2; // cantidad de paginas segun la cantidad de datos            
-            ViewState["Resto"] = (int)ViewState["Cantidad_De_Datos"] % 2; // me dice cuantos datos faltan para completar una pagina completa
+            ViewState["Cantidad_De_Paginas"] = (int)ViewState["Cantidad_De_Datos"] / 10; // cantidad de paginas segun la cantidad de datos            
+            ViewState["Resto"] = (int)ViewState["Cantidad_De_Datos"] % 10; // me dice cuantos datos faltan para completar una pagina completa
             if ((int)ViewState["Resto"] == 0) // sin resto hay una cantidad de paginas completas y le debo restar uno para asegurarme que como inicio de cero la ultima pagina no se encuentre vacia
             {
                 ViewState["Cantidad_De_Paginas"] = (int)ViewState["Cantidad_De_Paginas"] - 1;
             }
-            if ((int)ViewState["Cantidad_De_Datos"] <= 2) // para saber si hay menos de 20 datos no aparezca el boton de siguiente
+            if ((int)ViewState["Cantidad_De_Datos"] <= 10) // para saber si hay menos de 20 datos no aparezca el boton de siguiente
             {
                 Siguiente_Dios_Primero.Visible = false;
             }
@@ -93,7 +93,7 @@ namespace Marcela
 
         public void Mostrar_Datos_Dios(int Pagina)
         {
-            GridView_Supervisor.DataSource = val.Todos().Skip(Pagina * 2).Take(2);;
+            GridView_Supervisor.DataSource = val.Todos().Skip(Pagina * 10).Take(10);;
             GridView_Supervisor.DataBind();
         }
 

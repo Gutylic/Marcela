@@ -57,7 +57,7 @@ namespace Marcela.Logueo
 
             Email.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
             Email.To.Add("gutylic@gmail.com");
-            Email.Subject = "Mensaje desde la pagina web Marcela Escobedo";
+            Email.Subject = "Mensaje para Marcela Escobedo de un Paciente";
 
             //string strMensaje = string.Format("Nombre: {1}{0}Correo: {2}{0} Mensaje:{3} ", Environment.NewLine, name.Text, email.Text, message.Text);
 
